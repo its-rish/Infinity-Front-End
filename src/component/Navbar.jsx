@@ -36,7 +36,7 @@ function Navbar() {
         <div onClick={hamgurger} className='block md:hidden'>
             {!nav?<FaBars size={25}/>:<FaTimes size={25}/>}
         </div>
-        <div className={nav?' text-[rgb(60,48,6)] fixed left-0 top-0 w-[60%] h-full bg-gradient-to-t from-indigo-500 ease-in-out duration-200':'fixed left-[-100%]'}>  
+        <div className={nav?' text-[rgb(0,0,0)] fixed left-0 top-0 w-[60%] h-full bg-gradient-to-t from-indigo-500 ease-in-out duration-200':'fixed left-[-100%]'}>  
         <ul className='pt-24 w-full text-center'>
             <li className='p-4 border-b border-gray-500'>
                 Home
