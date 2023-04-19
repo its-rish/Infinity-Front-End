@@ -4,8 +4,8 @@ import Bg from "../assets/Untitled.mp4"
 
 function video() {
   return (
-    <div className='top-0 w-full'>
-      <video src={Bg} autoPlay loop muted ></video>
+    <div className='bg-fixed'>
+      <video className=' w-[100%] md:h-[55vh] object-cover' src={Bg} autoPlay loop muted >Your browser does not support the video tag.</video>
     </div>
   )
 }
