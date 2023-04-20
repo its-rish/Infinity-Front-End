@@ -20,6 +20,9 @@ function App() {
     <div className='w-full h-full  justify-center items-center  flex bg-gradient-to-b from-indigo-500'>
         <ServicePage/>
     </div>
+    <div>
+      fdkjd
+    </div>
     
     </>
 
