@@ -5,7 +5,6 @@ import serviceicon from './component/Serviceicon'
 
 function App() {
   return (
-    
     <>
       <div className='  h-screen w-screen bg-gradient-to-t from-indigo-500'>
       
