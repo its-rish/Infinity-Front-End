@@ -8,7 +8,7 @@ import painter from '../assets/painter.png'
 
 function ServicePage() {
   return (
-    <div className='h-[40vh] w-[70%] bg-slate-300 -mt-10  drop-shadow-md hover:drop-shadow-xl'>
+    <div className='h-[40vh] w-[70%] bg-slate-300 -mt-10  drop-shadow-md hover:drop-shadow-xl max-w-[1240px] mx-auto'>
        <div className='w-full h-full items-center justify-items-center grid gap-4 grid-cols-3 '>
         <div>
           <a  href="#"><img className='h-12  sepia hover:sepia-0' src={barber} alt="https://www.flaticon.com/free-icon/barber_10221682?term=barber&page=1&position=2&origin=search&related_id=10221682" />Barber</a>
