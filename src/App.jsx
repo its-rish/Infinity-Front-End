@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './component/Navbar';
 import Hero from './component/video';
 import ServicePage from './component/ServicePage';
-import Offers from './component/Offers'
+import Offers from './component/Offers';
+import Email from './component/Email';
 function App() {
   return (
     <>
@@ -20,9 +21,10 @@ function App() {
     <div className='w-full h-full  justify-center items-center  flex bg-gradient-to-b from-gray-500 '>
         <ServicePage/>
     </div>
-    <div className=''>
+    
       <Offers/>
-    </div>
+      <Email/>
+  
     
     </>
 
