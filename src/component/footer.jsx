@@ -2,7 +2,7 @@ import React from 'react'
 
 function footer() {
   return (
-    <div className='w-screen bg-[rgb(203,213,225)] flex justify-between'>
+    <div className='w-screen h-full bottom-0 bg-[rgb(203,213,225)] flex justify-between'>
       <div>
       <h1>
         Infinity

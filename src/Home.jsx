@@ -6,26 +6,22 @@ import Email from './component/Email';
 import Topservice from "./component/Topservice";
 function Home() {
     return (
-        <>
+        <div>
 
-            <div className='h-[50vh]  w-screen bg-gradient-to-t from-gray-500 '>
+            
 
-                <Hero />
+            <Hero />
 
-            </div>
-
-            <div className='w-full h-full  justify-center items-center  flex bg-gradient-to-b from-gray-500 '>
-                <ServicePage />
-            </div>
-            <div className='w-full h-full'>
-                <Offers />
-            </div>
+            <ServicePage />
+           
+            <Offers />
             
             <Topservice/>
+
             <Email />
 
 
-        </>
+        </div>
 
     )
 }

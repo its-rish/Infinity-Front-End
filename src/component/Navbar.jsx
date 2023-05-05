@@ -1,63 +1,40 @@
-import React, { useState } from 'react'
-import Logo from '../assets/logo1.ico';
-import { FaBars, FaTimes } from "react-icons/fa"
+import React from 'react'
+import logo from "../assets/logo.png"
+import {Link , HashLink} from "react-router-dom"
+
 function Navbar() {
-    const [nav, setNav] = useState(false)
-    const hamgurger = () => {
-        setNav(!nav)
-    }
+  return (
+   <nav className='bg-white'>
+      <div className='flex items-center font-medium justify-around'>
 
-    return (
-        <div className=' text-[rgb(135,120,222)]  flex justify-between items-center px-3 max-w-[1240px]mx-auto'>
-            <div className='flex justify-between items-center'>
-                <h1 className='w-full text-2xl md:text-3xl font-bold '>
-                    Infinity
-                </h1>
-                <img src={Logo} alt="Logo" className="w-10 md:w-20 bg-transparent pt-1 " />
-            </div>
-            <ul className='hidden md:flex  text-[rgb(230,153,0)] '>
-                <li className='p-4 '>
-                    Home
-                </li>
-                <li className='p-4 '>
-                    Services
-                </li>
-                <li className='p-4'>
-                    About Us
-                </li>
-                <li className='p-4 '>
-                    Blogs
-                </li>
-                <button className='px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2'>
-                    Login / SignUp
-                </button>
-
-            </ul>
-            <div onClick={hamgurger} className='block md:hidden'>
-                {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
-            </div>
-            <div className={nav ? ' text-[rgb(135,120,222)] fixed left-0 top-0 w-[60%] h-full bg-[rgba(10,3,3,0.94)]' : 'fixed left-[-100%] '}>
-                <ul className='pt-24 w-full text-center'>
-                    <li className='p-4 border-b border-gray-500'>
-                        Home
-                    </li>
-                    <li className='p-4 border-b border-gray-500'>
-                        Services
-                    </li>
-                    <li className='p-4 border-b border-gray-500'>
-                        About Us
-                    </li>
-                    <li className='p-4 border-b border-gray-500'>
-                        Blogs
-                    </li>
-                    <button className='px-4 mt-10 py-2 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2'>
-                        Login / SignUp
-                    </button>
-
-                </ul>
-            </div>
+        <div className='flex justify-center items-center '>
+          <HashLink to="/" className='text-2xl font-bold  text-[rgb(239,163,10)]'>Infinity</HashLink>
+          <img src={logo} alt="logo" className='md:cursor-pointer h-9 ' />
         </div>
-    )
+        <ul className='flex text-[rgb(239,163,10)] items-center '>
+          <li>
+            <HashLink to="/" className='py-7 px-3 inline-block'>Home</HashLink>
+            
+          </li>
+          <li>
+            <Link to="/" className='py-7 px-3 inline-block'>Home</Link>
+            
+          </li>
+          <li>
+            <Link to="/" className='py-7 px-3 inline-block'>Home</Link>
+            
+          </li>
+          <li>
+            <Link to="/" className='py-7 px-3 inline-block'>Home</Link>
+            
+          </li>
+          <Link to="./component/Email" className='px-4 py-1  text-sm text-center text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2' >Login / Sign Up</Link>
+        </ul>
+
+      </div>
+
+   </nav>
+  )
 }
 
 export default Navbar
