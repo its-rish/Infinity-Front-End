@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 function ServicePage() {
   return (
    
-     <div className='h-[40vh] w-screen  bg-slate-300 -mt-10  drop-shadow-md hover:drop-shadow-xl max-w-[1240px] mx-auto'>
+     <div className='h-[40vh] w-screen  bg-slate-300 -mt-12  drop-shadow-md hover:drop-shadow-xl max-w-[1240px] mx-auto'>
       <div className='w-full h-full items-center justify-items-center grid gap-4 grid-cols-3 '>
         <div>
           <Link to="./servicecomponent/Barbar"><img className='h-12  sepia hover:sepia-0' src={barber} alt="https://www.flaticon.com/free-icon/barber_10221682?term=barber&page=1&position=2&origin=search&related_id=10221682" />Barber</Link>

@@ -10,6 +10,7 @@ import Carpenter from "./component/servicecomponent/Carpenter"
 import Electrician from "./component/servicecomponent/Electrician"
 import Painter from "./component/servicecomponent/Painter"
 import Email from "./component/Email"
+import Login from "./component/login"
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/servicecomponent/Electrician' element ={<Electrician/>}/>
         <Route path='/servicecomponent/Painter' element = {<Painter/>}/>
         <Route path='/component/Email' element = { <Email/> }/>
+        <Route path='/component/login' element = {<Login/>}/>
       </Routes>
       <Footer />
     </Router>
