@@ -4,7 +4,7 @@ import {Link  } from "react-router-dom"
 
 function Navbar() {
   return (
-   <nav className='bg-white overflow-hidden'>
+   <nav className='bg-[rgba(0,0,0,0.5)] fixed w-screen z-50 top-0  overflow-hidden'>
       <div className='flex  font-medium justify-around'>
 
         <div className='flex justify-center items-center '>
