@@ -25,11 +25,11 @@ function Navbar() {
 
          </div>
           <li>
-            <Link to="/" className='py-7 px-3 inline-block'>Abouts</Link>
+            <Link to="/about" className='py-7 px-3 inline-block'>Abouts</Link>
             
           </li>
           <li>
-            <Link to="/" className='py-7 px-3 inline-block'>Blogs</Link>
+            <Link to="/blogs" className='py-7 px-3 inline-block'>Blogs</Link>
             
           </li>
           <li>
