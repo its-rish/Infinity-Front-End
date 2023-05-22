@@ -11,14 +11,18 @@ import Electrician from "./component/servicecomponent/Electrician"
 import Painter from "./component/servicecomponent/Painter"
 import Email from "./component/Email"
 import Login from "./component/login"
-
+import Sidebar from '../src/component/adminpanel/Sidebar'
+import Dashbord from "../src/component/adminpanel/AdminPages/Dashbord"
+import Profile from "../src/component/adminpanel/AdminPages/Profile"
+import History from "../src/component/adminpanel/AdminPages/History"
+import Cart from '../src/component/Addtocart/cart'
 
 
 
 function App() {
   return (
     <Router>
-      <Navbar />
+     
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/servicecomponent/Barbar' element={<Barbar />} />
@@ -29,6 +33,13 @@ function App() {
         <Route path='/servicecomponent/Painter' element = {<Painter/>}/>
         <Route path='/component/Email' element = { <Email/> }/>
         <Route path='/component/login' element = {<Login/>}/>
+        <Route path='/sidebar' element={<Sidebar/>}/>
+        <Route path='/dashbord' element={<Dashbord/>}/>
+        <Route path='/profile' element={<Profile/>}/>
+        <Route path='/history' element={<History/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+        
+        
       </Routes>
       <Footer />
     </Router>

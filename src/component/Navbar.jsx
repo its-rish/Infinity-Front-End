@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../assets/logo.png"
 import {Link  } from "react-router-dom"
+import {FaShoppingCart} from 'react-icons/fa'
 
 function Navbar() {
   return (
@@ -31,7 +32,13 @@ function Navbar() {
             <Link to="/" className='py-7 px-3 inline-block'>Blogs</Link>
             
           </li>
+          <li>
           <Link to="./component/login" className='p-4   text-sm text-center text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2' >Login / Sign Up</Link>
+          </li>
+          
+          <Link to='/cart' className='ml-8 hover:text-cyan-50'>{<FaShoppingCart size='2rem'/>}</Link>
+          
+
         </ul>
 
       </div>

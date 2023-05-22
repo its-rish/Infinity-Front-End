@@ -3,8 +3,12 @@ import {FaStar , FaStarHalfAlt,FaRegStar,FaTags} from "react-icons/fa"
 import {FcPaid} from "react-icons/fc"
 import Barber from '../../assets/barber.mp4'
 import {Link} from 'react-router-dom'
+import Navbar from "../Navbar"
+import Itemsprops from './Propsitem'
 function Plumber() {
   return (
+    <>
+    <Navbar/>
     <div className='flex justify-center flex-col items-center'>
       <div className='w-screen h-[50vh] flex justify-evenly'>
      
@@ -40,24 +44,11 @@ function Plumber() {
       <div className='w-[80%] h-full flex pt-10 '>
           <div className='w-[70%]'>
             <h1 className='flex justify-center pb-6 font-bold text-xl'>Packages</h1>
-          <div className=''>
-           <div className='flex'>
-           <div className='items-center flex'><FcPaid/></div>
-            <div>
-              <p>PACKAGES</p>
-            </div>
-           </div>
-           <h2 className='text-xl font-bold'>Installation + sanitation units</h2>
-            <div className='flex'>
-              <div className='flex items-center'><FaStar/></div>
-              <div>
-                <h3>4.83(942.5k)</h3>
-              </div>
-            </div>
-             <h3>Based on the parts changed</h3>
-          </div>
-
-
+         
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
           </div>
 
           <div className='flex flex-col '>
@@ -93,6 +84,7 @@ function Plumber() {
       </div>
 
     </div>
+    </>
   )
 }
 

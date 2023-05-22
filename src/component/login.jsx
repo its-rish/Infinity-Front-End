@@ -109,7 +109,7 @@ focus:invalid:border-pink-500 focus:invalid:ring-pink-500 text-black' type="pass
               
               <div className='flex  pb-4 text-white justify-center'>
                 
-                <button className='bg-purple-600 hover:bg-sky-500 text-white font-bold py-2 px-4 rounded-full'> Log in   </button>
+                <Link to='/sidebar' className='bg-purple-600 hover:bg-sky-500 text-white font-bold py-2 px-4 rounded-full'> Log in   </Link>
               </div>
 
             </form>
