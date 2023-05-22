@@ -1,9 +1,10 @@
 import React from 'react'
 import {FaStar , FaStarHalfAlt,FaRegStar,FaTags} from "react-icons/fa"
 import {FcPaid} from "react-icons/fc"
-import Barber from '../../assets/barber.mp4'
+import Barber from '../../assets/plumber.mp4'
 import {Link} from 'react-router-dom'
 import Navbar from "../Navbar"
+
 import Itemsprops from './Propsitem'
 function Plumber() {
   return (
@@ -45,10 +46,10 @@ function Plumber() {
           <div className='w-[70%]'>
             <h1 className='flex justify-center pb-6 font-bold text-xl'>Packages</h1>
          
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Piping/leak services" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹19900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Toilet plumbing" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹4900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Sump pump services" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹9900'/>
+            
           </div>
 
           <div className='flex flex-col '>

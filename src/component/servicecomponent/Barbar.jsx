@@ -4,6 +4,7 @@ import {FcPaid} from "react-icons/fc"
 import Barber from '../../assets/barber.mp4'
 import {Link} from 'react-router-dom'
 import Navbar from '../Navbar'
+
 import Itemsprops from './Propsitem'
 
 
@@ -49,9 +50,9 @@ function Barbar() {
             <h1 className='flex justify-center pb-6 font-bold text-xl'>Packages</h1>
           
             <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Facials" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Professional braiding" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹4100'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Scalp massage and conditioning treatment" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹4900'/>
           </div>
 
           <div className='flex flex-col '>

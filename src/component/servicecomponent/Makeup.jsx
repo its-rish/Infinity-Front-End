@@ -1,9 +1,10 @@
 import React from 'react'
 import {FaStar , FaStarHalfAlt,FaRegStar,FaTags} from "react-icons/fa"
 import {FcPaid} from "react-icons/fc"
-import Barber from '../../assets/barber.mp4'
+import Barber from '../../assets/makeup_art.mp4'
 import {Link} from 'react-router-dom'
 import Navbar from "../Navbar"
+
 import Itemsprops from './Propsitem'
 function Makeup() {
   return (
@@ -44,10 +45,10 @@ function Makeup() {
       <div className='w-[80%] h-full flex pt-10 '>
           <div className='w-[70%]'>
             <h1 className='flex justify-center pb-6 font-bold text-xl'>Packages</h1>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Bridal and wedding makeup" nameicon={<FaStar/>} users='4.13(942.5k)' money='₹4990'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Skincare consultations" nameicon={<FaStar/>} users='4.53(942.5k)' money='₹9900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Fashion styling services and fashion makeup" nameicon={<FaStar/>} users='4.23(942.5k)' money='₹10900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Professional hair styling services" nameicon={<FaStar/>} users='4.83(912.5k)' money='₹3900'/>
          
           </div>
 
