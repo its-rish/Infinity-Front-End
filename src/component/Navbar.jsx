@@ -18,10 +18,7 @@ function Navbar() {
             
           </li>
          <div>
-         <li>
-           <Link to='/service' className='py-7 px-3 inline-block' >Services</Link>
-            
-          </li>
+         
 
          </div>
           <li>

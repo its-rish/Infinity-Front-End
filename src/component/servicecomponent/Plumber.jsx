@@ -45,10 +45,10 @@ function Plumber() {
       <div className='w-[80%] h-full flex pt-10 '>
           <div className='w-[70%]'>
             <h1 className='flex justify-center pb-6 font-bold text-xl'>Packages</h1>
-         
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Pipe installation" nameicon={<FaStar/>} users='3.83(942.5k)' money='₹3500'/>
             <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Piping/leak services" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹19900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Toilet plumbing" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹4900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Sump pump services" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹9900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Toilet plumbing" nameicon={<FaStar/>} users='4.0(942.5k)' money='₹4900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Sump pump services" nameicon={<FaStar/>} users='3.83(942.5k)' money='₹9900'/>
             
           </div>
 
