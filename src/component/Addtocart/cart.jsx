@@ -15,9 +15,9 @@ function cart() {
           <h3 className='p-4 '>Shoping Cart</h3>
           <Cartitem img={Barber} name='Barber' items='Hair + Beard Cut' price='2500' logo={<FcApproval />} number='1' secondlogo={<FcEmptyTrash />} />
           <Cartitem img={Barber} name='Barber' items='Body Massage' price='2000' logo={<FcApproval />} number='1' secondlogo={<FcEmptyTrash />} />
-          <Cartitem img={Plumber} name='Plumber' items='Hair + Beard Cut' price='4500' logo={<FcApproval />} number='1' secondlogo={<FcEmptyTrash />} />
-          <Cartitem img={Makeup} name='Makeup' items='Hair + Beard Cut' price='4500' logo={<FcApproval />} number='1'  secondlogo={<FcEmptyTrash />} />
-          <Cartitem img={Makeup} name='Makeup' items='Hair + Beard Cut' price='4500' logo={<FcApproval />} number='1' secondlogo={<FcEmptyTrash />} />
+          <Cartitem img={Plumber} name='Plumber' items='Pipe installation' price='1500' logo={<FcApproval />} number='1' secondlogo={<FcEmptyTrash />} />
+          <Cartitem img={Makeup} name='Makeup' items='Casual Makeup' price='500' logo={<FcApproval />} number='1'  secondlogo={<FcEmptyTrash />} />
+          <Cartitem img={Makeup} name='Makeup' items='Bridal Makeup' price='4000' logo={<FcApproval />} number='1' secondlogo={<FcEmptyTrash />} />
         </div>
         <div className=' h-full w-[30%] bg-slate-200 p-5 '>
           <div className='flex flex-col '>
