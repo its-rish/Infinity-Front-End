@@ -39,12 +39,14 @@ function cart() {
                 <p>TOTAL COST</p>
                 <p className='bg-white  p-2'>₹ 12390</p>
               </div>
-              <div className='flex items-center justify-center p-6'>
+              <div className='flex flex-col items-center justify-center p-6'>
+                <input className='p-1 mb-3' type="number" placeholder='PIN CODE' required  />
                 <button className=' p-2 rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500'>CHECKOUT</button>
               </div>
-              <div className='flex justify-between border-t-2 border-black'>
-                <p>COUPON CODE</p>
-                <span>+</span>
+              <div className='flex justify-evenly  border-t-2 border-black'>
+                <p className='mt-2'>COUPON CODE</p>
+                <input className='mt-2' type="text" />
+                <span className='mt-2'>+</span>
               </div>
 
             </div>
