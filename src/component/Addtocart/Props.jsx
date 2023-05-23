@@ -17,7 +17,7 @@ function Props( props) {
           <div className='flex flex-row pt-4 pb-4'>
 
             <button className='border-2 w-5 mr-5 font-bold flex justify-center ' >-</button>
-            <span className=''>0</span>
+            <span className=''>{props.number}</span>
             <button className='border-2 w-5 ml-5 font-bold flex justify-center ' >+</button>
           </div>
           <div className='flex flex-col items-center '>

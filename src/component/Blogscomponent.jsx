@@ -6,8 +6,9 @@ function Blogscomponent(props) {
     <Link to='https://en.wikipedia.org/wiki/Main_Page'>
     <div className='h-full p-[3rem] mb-3 hover:scale-105 duration-300'>
        <div className='w-[70%] h-[45vh]  flex flex-col '>
-          <div className='h-full w-[100%] border-solid border-2 shadow-2xl shadow-yellow-400 '>
+          <div className='h-full w-[100%] flex items-center  border-solid border-2 shadow-2xl shadow-yellow-400 '>
             <img className='h-full w-full' src={props.img} alt="background img" />
+            <p className='p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quidem consequuntur sit ullam reprehenderit tempora magnam aperiam impedit maiores ratione molestias facilis reiciendis nobis, totam eius quis, nostrum consequatur natus!</p>
           </div>
           <div className='flex  justify-between pt-3 text-xl'>
           <h2>{props.name}</h2>
