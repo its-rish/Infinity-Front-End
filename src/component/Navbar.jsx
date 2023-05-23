@@ -19,7 +19,7 @@ function Navbar() {
           </li>
          <div>
          <li>
-           <button className='py-7 px-3 inline-block' >Services</button>
+           <Link to='/service' className='py-7 px-3 inline-block' >Services</Link>
             
           </li>
 

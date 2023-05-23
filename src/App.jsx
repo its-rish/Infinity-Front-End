@@ -18,6 +18,7 @@ import History from "../src/component/adminpanel/AdminPages/History"
 import Cart from '../src/component/Addtocart/cart'
 import Blogs from '../src/component/Blogs'
 import About from '../src/component/About'
+import Service from '../src/component/ServicePage'
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/blogs' element={<Blogs/>}/>
+        <Route path='/service' element={<Service/>}/>
         
         
       </Routes>
