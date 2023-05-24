@@ -45,9 +45,9 @@ function Makeup() {
       <div className='w-[80%] h-full flex pt-10 '>
           <div className='w-[70%]'>
             <h1 className='flex justify-center pb-6 font-bold text-xl'>Packages</h1>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Bridal and wedding makeup" nameicon={<FaStar/>} users='4.13(942.5k)' money='₹4990'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Skincare consultations" nameicon={<FaStar/>} users='4.53(942.5k)' money='₹9900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Fashion styling services and fashion makeup" nameicon={<FaStar/>} users='4.23(942.5k)' money='₹10900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Bridal and wedding makeup" nameicon={<FaStar/>} users='4.13(942.5k)' money='₹4000'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Skincare consultations" nameicon={<FaStar/>} users='4.53(942.5k)' money='₹500'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Fashion styling services and fashion makeup" nameicon={<FaStar/>} users='4.23(942.5k)' money='₹1090'/>
             <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Professional hair styling services" nameicon={<FaStar/>} users='4.83(912.5k)' money='₹3900'/>
          
           </div>

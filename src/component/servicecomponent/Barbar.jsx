@@ -49,10 +49,10 @@ function Barbar() {
           <div className='w-[70%]  '>
             <h1 className='flex justify-center pb-6 font-bold text-xl'>Packages</h1>
           
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹49900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Hair Cut & Beard shave" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹500'/>
             <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Facials" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹900'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Professional braiding" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹4100'/>
-            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Scalp massage and conditioning treatment" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹4900'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Professional braiding" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹410'/>
+            <Itemsprops icon={<FcPaid/>} navname='PACKAGES' name="Scalp massage and conditioning treatment" nameicon={<FaStar/>} users='4.83(942.5k)' money='₹2000'/>
           </div>
 
           <div className='flex flex-col '>

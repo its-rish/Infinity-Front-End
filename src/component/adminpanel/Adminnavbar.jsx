@@ -1,9 +1,10 @@
 import React from 'react'
 import {FaBars,FaRegUserCircle,FaSms} from 'react-icons/fa'
-
+import Firstdashbord from '../../assets/dashboard.png'
 function Adminnavbar() {
   return (
-    <nav className='flex justify-between p-1 h-[3rem] border-b-2 bg-[rgba(0,0,0,0.4)] items-center '>
+    <>
+    <nav className='flex justify-between sticky p-1 h-[3rem] border-b-2 bg-[rgba(0,0,0,0.4)] items-center '>
       <div className='p-4'>
         <FaBars fontSize='1.5rem'/>
       </div>
@@ -13,7 +14,11 @@ function Adminnavbar() {
 
       </div>
 
-    </nav>
+    </nav> 
+    <div className='h-full w-screen'>
+<img src={Firstdashbord} alt="" />
+    </div>
+    </>
   )
 }
 
